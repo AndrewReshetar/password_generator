@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(140, 39, 207);
+}
+.generator {
+  border: 2px solid rgba(0, 0, 0, 0.253);
+  background-color: indigo;
+  margin: 7% auto;
+  width: 40%;
+  height: 450px;
+}
+
+.generator input[type="text"] {
+  color: rgba(255, 255, 255, 0.979);
+  font-size: large;
+  font-weight: 700;
+  width: 70%;
+  height: 50px;
+  margin: 10px 4%;
+  background-color: rgb(117, 61, 155);
+}
+
+.additional-properties {
+  margin-top: 20%;
+}
+
+.additional-properties div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  color: rgb(219, 214, 214);
+  font-size: large;
+}
+
+.length {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  color: rgb(219, 214, 214);
+  font-size: large;
+}
+
+.generate {
+  font-weight: 600;
+  font-size: 2em;
+  color: rgb(23, 1, 39);
+  border: none;
+  background-color: rgb(6, 74, 177);
+  margin: 50px 0 0 8%;
+  width: 80%;
+  height: 50px;
+}
+
+.generate:hover {
+  color: rgb(229, 255, 0);
+  background-color: rgb(0, 184, 216);
+}
+
+.copy {
+  font-weight: 600;
+  font-size: 1.4em;
+  color: rgb(218, 204, 228);
+  border: none;
+  background-color: rgb(94, 1, 112);
+  border: 1px solid rgb(189, 12, 224);
+  height: 40px;
+}
+
+.copy:hover {
+  font-weight: 600;
+  font-size: 1.4em;
+  color: rgb(189, 228, 15);
+  border: none;
+  background-color: rgba(130, 0, 156, 0.527);
+  border: 1px solid rgb(189, 12, 224);
+  height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .generator {
+    width: 90%;
+  }
+
+  .generator input[type="text"] {
+    width: 90%;
+    font-size: small;
+  }
+
+  .generate {
+    font-size: 1.1em;
+  }
+  .copy {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
